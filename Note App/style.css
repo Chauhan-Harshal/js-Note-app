@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #137db1;
+  }
+
+  .header {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #5f6368;
+  }
+
+  .note-input {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .note-input textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    resize: none;
+    font-size: 16px;
+  }
+
+  .notes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 20px;
+    gap: 15px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .note {
+    background: #fff59d;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 100px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    white-space: pre-wrap;
+  }
+
+  .note-buttons {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+  }
+
+  .note button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #444;
+  }
+
+  .note button:hover {
+    color: #000;
+  }
+
+  .add-btn {
+    display: central;
+  }
+  .add-btn {
+    display: inline-flex;
+  }
+   
+  
+  
+
+
+
+
+
+
+
+  
